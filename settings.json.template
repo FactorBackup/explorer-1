@@ -5,15 +5,15 @@
 */
 {
   // name your instance!
-  "title": "PhilsCurrency",
+  "title": "Digiwage Block Explorer",
 
-  "address": "18.220.221.252:3001",
+  "address": "127.0.0.1:80",
 
   // coin name
-  "coin": "PhilsCurrency",
+  "coin": "Digiwage",
 
   // coin symbol
-  "symbol": "PHILS",
+  "symbol": "WAGE",
 
   // logo
   "logo": "/images/logo.png",
@@ -22,14 +22,10 @@
   "favicon": "public/favicon.ico",
 
   // Uses bootswatch themes (http://bootswatch.com/)
-  // Valid options:
-  //     Cerulean, Cosmo, Cyborg, Darkly, Flatly, Journal, Lumen, Paper,
-  //     Readable, Sandstone, Simplex, Slate, Spacelab, Superhero, United, Yeti
-  // theme (see /public/themes for available themes)
-  "theme": "Cerulean",
+  "theme": "Yeti",
 
   // port to listen for requests on.
-  "port" : 3001,
+  "port" : 80,
 
   // database settings (MongoDB)
   "dbsettings": {
@@ -47,13 +43,13 @@
   // wallet settings
   "wallet": {
     "host": "localhost",
-    "port": 36002,
-    "user": "philscurrencyrpc",
-    "pass": "A3C94C5X763NnH3cXkaSPLJYvk8fNW4KXTbqRdtdVYr"
+    "port": 46002,
+    "user": "digiwagerpc",
+    "pass": "rpcpass"
   },
 
   // confirmations
-  "confirmations": 40,
+  "confirmations": 100,
 
   // language settings
   "locale": "locale/en.json",
@@ -62,9 +58,9 @@
   "display": {
     "api": true,
     "markets": false,
-    "richlist": false,
-    "twitter": true,
-    "facebook": true,
+    "richlist": true,
+    "twitter": false,
+    "facebook": false,
     "googleplus": false,
     "search": true,
     "movement": false,
@@ -74,16 +70,16 @@
   // index page (valid options for difficulty are POW, POS or Hybrid)
   "index": {
     "show_hashrate": true,
-    "difficulty": "POW",
+    "difficulty": "Hybrid",
     "last_txs": 100
   },
 
   // ensure links on API page are valid
   "api": {
     "blockindex": 0,
-    "blockhash": "e37bd4c37400b27f681015c323c30ac328f023bcfd0baf3610a7f8315f1beccf",
-    "txhash": "ff77c540c7869f67f52fd9a811c7c0bd269b316a9f293e51470c5e0883e251d2",
-    "address": "Prc5viNrBKHfyoCrKjFuK3PZkkvX1biD8M"
+    "blockhash": "00000062981c43bf45a700fcbe76d0900623f9ac55042ad70e4fd8580a602d23",
+    "txhash": "92aeaef6c82884d7afebeccd7151630e2e1cd659393b280f082c999dddc001a9",
+    "address": "DU7eTFJKv2q4njW5G32MCwc6ZBeXvRmt2Z"
   },
 
   // market settings
@@ -120,8 +116,8 @@
   "googleplus": "yourgooglepluspage",
 
   //genesis
-  "genesis_tx": "ff77c540c7869f67f52fd9a811c7c0bd269b316a9f293e51470c5e0883e251d2",
-  "genesis_block": "e37bd4c37400b27f681015c323c30ac328f023bcfd0baf3610a7f8315f1beccf",
+  "genesis_tx": "92aeaef6c82884d7afebeccd7151630e2e1cd659393b280f082c999dddc001a9",
+  "genesis_block": "00000062981c43bf45a700fcbe76d0900623f9ac55042ad70e4fd8580a602d23",
 
   //heavy (enable/disable additional heavy features)
   "heavy": false,
@@ -147,7 +143,7 @@
 
   // nethash unitd: sets nethash API return units
   // valid options: "P" (PH/s), "T" (TH/s), "G" (GH/s), "M" (MH/s), "K" (KH/s)
-  "nethash_units": "G",
+  "nethash_units": "M",
 
   // Address labels
   // example : "JhbrvAmM7kNpwA6wD5KoAsbtikLWWMNPcM": {"label": "This is a burn address", "type":"danger", "url":"http://example.com"}

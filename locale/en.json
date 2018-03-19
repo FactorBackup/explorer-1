@@ -15,7 +15,7 @@
     "menu_network": "Network",
 
     // explorer view
-    "ex_title": "Block Explorer",
+    "ex_title": "Digiwage Block Explorer",
     "ex_search_title": "Search",
     "ex_search_button": "Search",
     "ex_search_message": "You may enter a block height, block hash, tx hash or address.",

@@ -4,8 +4,30 @@ body {
  /* background-image: url('/images/background2.png');*/
 }
 
+th {
+  font-weight: normal;
+}
+
+a {
+    color: #FCB81F;
+}
+
+a:hover, a:focus {
+    color: #CA8600;
+    text-decoration: underline;
+}
+
+.navbar-default {
+  color: #FCB81F;
+  font-weight: normal;
+}
+
 #index-search {
 	width: 80%;
+}
+
+label {
+    font-weight: 600;
 }
 
 .nav-search input {
